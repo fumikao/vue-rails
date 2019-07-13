@@ -1,4 +1,4 @@
 json.title      @book.title
 json.author     @book.author
-json.publisher  @publisher
-json.genre      @genre
+json.publisher  @book.publisher
+json.genre      @book.genre
