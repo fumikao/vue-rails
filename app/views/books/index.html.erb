@@ -2,7 +2,6 @@
   <ul>
     <% @books.each do |book| %>
       <%= content_tag(:li, book.title, "v-on:click": "setBookInfo(#{book.id})") %>
-      <%# <li v-on:click="setBokkInfo(#{book.id})">book.title</li> %>
     <% end %>
   </ul>
   <div v-show="bookInfoBool">
