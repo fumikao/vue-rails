@@ -1,24 +1,11 @@
-# README
+Vue.js + Rails Practice
+====
+## 概要
+RailsアプリにVue.jsを導入する練習のために作成しました。
+本のタイトルをクリックすると詳細が表示されます。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用技術
+- Ruby
+- Ruby on Rails
+- Vue.js
+- MySQL
