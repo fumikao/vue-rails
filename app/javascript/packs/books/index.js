@@ -10,7 +10,7 @@ new Vue({
   methods: {
     setBookInfo(id){
       axios.get(`api/books/${id}.json`)
-        .then(res => {
+        .then((res) => {
           this.bookInfo = res.data
           this.bookInfoBool = true
         });
